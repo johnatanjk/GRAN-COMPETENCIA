@@ -1,0 +1,104 @@
+*{padding:0px ;
+	margin: 0px;
+
+}
+
+html{background-color: gold;}
+
+body{width: 1000px;
+height: 1000px;
+background-color: orange;
+margin: auto;
+}
+
+header{
+width: 1000px;
+height: 200px;
+background-color: beige;
+
+}
+
+nav{
+width: 1000px;
+height: 50px;
+background-color: black;
+}
+
+main{ width: 1000px;
+height: 700px; }
+
+article{ height: 700px;
+
+width: 800px;
+background-color: orangered; 
+float: left;}
+
+aside{ height: 700px; 
+width: 200px;
+background-color: whitesmoke;
+float: left;}
+
+footer{height: 50px;
+width: 1000px;
+background-color: gold;}
+
+
+nav a{text-decoration: none;
+color: inherit;
+font-size: 20px;
+font-family: tahoma;
+
+
+}
+
+nav li{
+	display: inline-block;
+	padding: 15px 0px;
+	box-shadow: 0 0 10 px #fff;
+	color: #FFF;
+
+}
+
+nav li:hover{
+	background-color: #FAACCF;
+	color: #DDD;
+	box-shadow: 0 0 10 px #000;
+	transition: 1s;
+}
+nav ul{
+	text-align: center;
+}
+
+/*Redes Sociales*/
+.redessociales{
+	display: inline-block;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-radius: 50%;
+	transition: all 0.5s;
+}
+
+.redessociales:hover:nth-child(1){
+	background-color: #1877f2;
+	box-shadow: 0 0 20px #000;
+}
+
+.redessociales:hover:nth-child(2){
+  background-color: #2ECC71;
+	box-shadow: 0 0 20px #000;
+}
+
+.redessociales:hover:nth-chill(3){
+ background-color: B59B6;
+	box-shadow: 0 0 20px #000;
+}
+
+.redessociales:hover:nth-child(4){
+ background-color:AED6F1 ;
+	box-shadow: 0 0 20px #000;
+}
+
+.redessociales:hover:nth-child(5){
+	background-color: ;
+	box-shadow: 0 0 20px #000;
+}
